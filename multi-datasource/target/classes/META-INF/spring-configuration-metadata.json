@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "name": "febs",
+      "type": "com.boot.job.db.common.properties.FebsProperties",
+      "sourceType": "com.boot.job.db.common.properties.FebsProperties"
+    },
+    {
+      "name": "spring.datasource.dynamic.druid",
+      "type": "com.boot.job.db.datasource.DruidProperties",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "febs.open-aop-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.common.properties.FebsProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "febs.shiro",
+      "type": "com.boot.job.db.common.properties.ShiroProperties",
+      "sourceType": "com.boot.job.db.common.properties.FebsProperties"
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.aop-patterns",
+      "type": "java.lang.String[]",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.connection-properties",
+      "type": "java.lang.String",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.filters",
+      "type": "java.lang.String",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.dynamic.druid.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.boot.job.db.datasource.DruidProperties"
+    }
+  ],
+  "hints": []
+}

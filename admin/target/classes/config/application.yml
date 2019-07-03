@@ -1,0 +1,42 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /xxl-job-admin
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xxl-job?Unicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  mail:
+    host: smtp.qq.com
+    port: 25
+    username: xxx
+    password: xxx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required : true
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+    charset: utf-8
+    request-context-attribute: request
+    settings:
+      number_format: 0.##########
+xxl:
+  job:
+    login:
+      username: admin
+      password: 123456
+    accessToken:
+    i18n:
+mybatis:
+  mapper-locations: classpath:/mybatis-mapper/*Mapper.xml

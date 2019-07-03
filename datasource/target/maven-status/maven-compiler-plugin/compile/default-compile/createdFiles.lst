@@ -1,0 +1,11 @@
+com\boot\job\datasource\NoWarningMapper.class
+com\boot\job\datasource\service\impl\UserInfoServiceImpl.class
+com\boot\job\datasource\service\UserInfoService.class
+META-INF\spring-configuration-metadata.json
+com\boot\job\datasource\controller\ApiController.class
+com\boot\job\datasource\config\MybatisPlusConfig.class
+com\boot\job\datasource\config\RedisConfiguration.class
+com\boot\job\datasource\config\DruidConfiguration.class
+com\boot\job\datasource\dao\UserInfoDao.class
+com\boot\job\datasource\entity\UserInfoEntity.class
+com\boot\job\datasource\DataSourceApplication.class
