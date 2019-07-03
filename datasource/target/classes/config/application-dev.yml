@@ -1,8 +1,0 @@
-server:
-  port: 9001
-spring:
-  redis:
-    host: 118.24.118.135
-    port: 6380
-  cache:
-    type: redis
